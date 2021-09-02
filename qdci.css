@@ -1,0 +1,103 @@
+/**
+ *  Set of styles for +QDCI letters data visualization
+ *  by Konstantin.Safronov@sanofi.com for Sanofi, 2020
+ */
+
+.grid {
+    color:#000000;
+    fill:none;
+    stroke:#37abc8;
+    stroke-width:1;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate;
+ }
+ #day-numbers {
+    font-size:28px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    font-stretch:normal;
+    text-align:justify;
+    line-height:100%;
+    letter-spacing:0px;
+    word-spacing:0px;
+    writing-mode:lr-tb;
+    text-anchor:start;
+    fill:#216778;
+    fill-opacity:1;
+    stroke:none;
+    font-family:Arial Narrow;
+    
+ }
+ #letter {
+    font-size:120px;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:bold;
+    font-stretch:normal;
+    fill:#2c89a0;
+    font-family:Arial;
+    line-height:80%;
+    letter-spacing:0px; 
+    word-spacing:0px; 
+    writing-mode:lr-tb; 
+    text-anchor:start;
+ }
+ .fills {
+    fill:#ffffff;
+    fill-opacity:1;
+    stroke:#eff4f5;
+    stroke-width:0.58;
+    stroke-linecap:butt;
+    stroke-linejoin:round;
+    stroke-miterlimit:17.5;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    cursor: pointer;
+ }
+ .dayoff-fill {
+    fill:#c3d9e2;
+    fill-opacity:1;
+    stroke:#eff4f5;
+    stroke-width:0.58;
+    stroke-linecap:butt;
+    stroke-linejoin:round;
+    stroke-miterlimit:17.5;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    cursor: pointer;
+ }
+ .nodata-fill {
+    fill:#fa8579;
+    fill-opacity:1;
+    stroke:#de9187;
+ }
+.gd { /* Green Dot style */
+    fill:#37c871;
+    fill-opacity:1;
+    stroke:none;
+    display: none;
+ }
+ .rc { /* Red Cross style */
+    fill:#d40000;
+    fill-opacity:1;
+    stroke:none;
+    display: none;
+ }
+ .ot { /* Orange Triangle style */
+    fill:#ff9955;
+    fill-opacity:1;
+    stroke:none;
+    display: none;
+ }
